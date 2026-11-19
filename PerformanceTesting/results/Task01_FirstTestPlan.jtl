@@ -1,0 +1,2 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1795119954835,1188,Adactin Login Page,200,OK,Thread Group - 1 User 1-1,text,true,,5462,121,1,1,https://adactinhotelapp.com/,1180,0,952
