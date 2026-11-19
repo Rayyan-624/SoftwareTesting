@@ -1,0 +1,10 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1795120026796,1307,Register User,201,Created,Thread Group - API Users 1-1,text,true,,790,333,2,2,https://api-testing-postman.vercel.app/api/v1/users/register,1303,0,386
+1795120027714,1001,Register User,201,Created,Thread Group - API Users 1-2,text,true,,790,333,3,3,https://api-testing-postman.vercel.app/api/v1/users/register,1001,0,113
+1795120028107,1061,Login User,200,OK,Thread Group - API Users 1-1,text,true,,1993,259,3,3,https://api-testing-postman.vercel.app/api/v1/users/login,1061,0,0
+1795120029172,452,Get Current User,200,OK,Thread Group - API Users 1-1,text,true,,792,478,3,3,https://api-testing-postman.vercel.app/api/v1/users/current-user,451,0,0
+1795120028714,1025,Register User,201,Created,Thread Group - API Users 1-3,text,true,,790,333,2,2,https://api-testing-postman.vercel.app/api/v1/users/register,1025,0,109
+1795120028717,1057,Login User,200,OK,Thread Group - API Users 1-2,text,true,,1993,259,2,2,https://api-testing-postman.vercel.app/api/v1/users/login,1057,0,0
+1795120029777,458,Get Current User,200,OK,Thread Group - API Users 1-2,text,true,,792,478,2,2,https://api-testing-postman.vercel.app/api/v1/users/current-user,458,0,0
+1795120029740,1129,Login User,200,OK,Thread Group - API Users 1-3,text,true,,1993,259,1,1,https://api-testing-postman.vercel.app/api/v1/users/login,1129,0,0
+1795120030873,461,Get Current User,200,OK,Thread Group - API Users 1-3,text,true,,792,478,1,1,https://api-testing-postman.vercel.app/api/v1/users/current-user,461,0,0
