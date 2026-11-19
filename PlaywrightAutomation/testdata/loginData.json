@@ -2,7 +2,8 @@
   "validUsers": [
     {
       "username": "haristester01",
-      "password": "haristester01"
+      "password": "haristester01",
+      "ExpectedMsg": "Welcome to Adactin Group of Hotels"
     }
   ]
 }
