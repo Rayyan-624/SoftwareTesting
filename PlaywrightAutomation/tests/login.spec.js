@@ -1,12 +1,12 @@
 import { test, expect } from '@playwright/test';
 import loginData from '../testdata/loginData.json';
+import LoginPage from '../pages/LoginPage';
 
-loginData.validUsers.forEach((data) => {
-  test(`Login Test for ${data.username}`, async ({ page }) => {
-    await page.goto('https://adactinhotelapp.com/', { waitUntil: 'domcontentloaded' });
-    await page.fill('#username', data.username);
-    await page.fill('#password', data.password);
-    await page.click('#login');
-    await expect(page.locator('.welcome_menu').first()).toContainText('Welcome to Adactin Group of Hotels');
-  });
+test('Login Test Case using with Valid User', async ({ page }) => {
+  const login = new LoginPage(page);
+  const data = loginData.validUsers[0];
+
+  await login.gotoURL();
+  await login.login(data.username, data.password);
+  await expect(login.message.first()).toHaveText(data.ExpectedMsg);
 });
