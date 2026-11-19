@@ -1,0 +1,48 @@
+{
+  "validUser": {
+    "username": "haristester01",
+    "password": "haristester01"
+  },
+  "invalidUser": {
+    "username": "wronguser123",
+    "password": "wrongpass123"
+  },
+  "search": {
+    "location": "Sydney",
+    "hotel": "Hotel Creek",
+    "roomType": "Standard",
+    "rooms": "1",
+    "checkIn": "20/12/2026",
+    "checkOut": "22/12/2026",
+    "adults": "2"
+  },
+  "booking": {
+    "firstName": "Syed Muhammad",
+    "lastName": "Rayyan",
+    "address": "FAST NUCES Karachi",
+    "ccNum": "1234567812345678",
+    "ccType": "VISA",
+    "expMonth": "December",
+    "expYear": "2026",
+    "cvv": "123"
+  },
+  "invalidCard": {
+    "ccNum": "1234"
+  },
+  "titles": {
+    "login": "Adactin.com - Hotel Reservation System",
+    "search": "Adactin.com - Search Hotel",
+    "selectHotel": "Adactin.com - Select Hotel",
+    "bookHotel": "Adactin.com - Book A Hotel",
+    "confirmation": "Adactin.com - Hotel Booking Confirmation",
+    "logout": "Adactin.com - Logout"
+  },
+  "messages": {
+    "welcome": "Welcome to Adactin Group of Hotels",
+    "invalidLogin": "Invalid Login details",
+    "locationError": "Please Select a Location",
+    "firstNameError": "Please Enter your First Name",
+    "ccNumError": "Please Enter your 16 Digit Credit Card Number",
+    "logout": "You have successfully logged out"
+  }
+}
