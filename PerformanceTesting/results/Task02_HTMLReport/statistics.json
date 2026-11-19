@@ -1,0 +1,50 @@
+{
+  "Adactin Register Page" : {
+    "transaction" : "Adactin Register Page",
+    "sampleCount" : 20,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 195.2,
+    "medianResTime" : 195.0,
+    "minResTime" : 172.0,
+    "maxResTime" : 215.0,
+    "pct1ResTime" : 211.9,
+    "pct2ResTime" : 214.85,
+    "pct3ResTime" : 215.0,
+    "throughput" : 4.337453914552158,
+    "receivedKBytesPerSec" : 36.59303160919541,
+    "sentKBytesPerSec" : 0.563360713511169
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 40,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 351.175,
+    "medianResTime" : 202.0,
+    "minResTime" : 172.0,
+    "maxResTime" : 1123.0,
+    "pct1ResTime" : 808.6,
+    "pct2ResTime" : 945.0499999999996,
+    "pct3ResTime" : 1123.0,
+    "throughput" : 6.972285166463308,
+    "receivedKBytesPerSec" : 48.00425145982221,
+    "sentKBytesPerSec" : 0.8647267735750392
+  },
+  "Adactin Login Page" : {
+    "transaction" : "Adactin Login Page",
+    "sampleCount" : 20,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 507.1500000000001,
+    "medianResTime" : 452.5,
+    "minResTime" : 172.0,
+    "maxResTime" : 1123.0,
+    "pct1ResTime" : 940.1000000000003,
+    "pct2ResTime" : 1114.35,
+    "pct3ResTime" : 1123.0,
+    "throughput" : 3.6036036036036037,
+    "receivedKBytesPerSec" : 19.219805743243242,
+    "sentKBytesPerSec" : 0.42581644144144143
+  }
+}
