@@ -5,4 +5,5 @@ test('Login Test Case', async ({ page }) => {
   await page.fill('#username', 'haristester01');
   await page.fill('#password', 'haristester01');
   await page.click('#login');
+  await expect(page.locator('.welcome_menu').first()).toHaveText('Welcome to Adactin Group of Hotels');
 });
