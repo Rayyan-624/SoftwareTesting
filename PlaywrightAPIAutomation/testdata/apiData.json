@@ -1,0 +1,7 @@
+{
+  "baseURL": "https://api-testing-postman.vercel.app/api/v1/users",
+  "user": {
+    "fullname": "Syed Muhammad Rayyan",
+    "password": "Rayyan@0624"
+  }
+}
