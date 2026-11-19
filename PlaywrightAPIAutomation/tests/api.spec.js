@@ -32,5 +32,12 @@ test.describe.serial('User API', () => {
 
     console.log(GETResponse.status());
     expect(GETResponse.status()).toBe(200);
+    expect(GETResponse.ok()).toBeTruthy();
+
+    const userBody = await GETResponse.json();
+    expect(userBody.success).toBe(true);
+    expect(userBody.data.username).toBe(data.username);
+    expect(userBody.data.email).toBe(data.email);
+    expect(userBody.data.fullname).toBe(data.fullname);
   });
 });
