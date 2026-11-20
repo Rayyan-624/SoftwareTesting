@@ -173,7 +173,7 @@ $(document).ready(function() {
     });
 
     // Creates APDEX table
-    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.875, 500, 1500, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)", "F (Frustration threshold)", "Label"], "items": [{"data": [1.0, 500, 1500, "Adactin Register Page"], "isController": false}, {"data": [0.75, 500, 1500, "Adactin Login Page"], "isController": false}]}, function(index, item){
+    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.575, 500, 1500, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)", "F (Frustration threshold)", "Label"], "items": [{"data": [0.725, 500, 1500, "Adactin Register Page"], "isController": false}, {"data": [0.425, 500, 1500, "Adactin Login Page"], "isController": false}]}, function(index, item){
         switch(index){
             case 0:
                 item = item.toFixed(3);
@@ -187,7 +187,7 @@ $(document).ready(function() {
     }, [[0, 0]], 3);
 
     // Create statistics table
-    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 40, 0, 0.0, 351.175, 172, 1123, 202.0, 808.6, 945.0499999999996, 1123.0, 6.972285166463308, 48.00425145982221, 0.8647267735750392], "isController": false}, "titles": ["Label", "#Samples", "FAIL", "Error %", "Average", "Min", "Max", "Median", "90th pct", "95th pct", "99th pct", "Transactions/s", "Received", "Sent"], "items": [{"data": ["Adactin Register Page", 20, 0, 0.0, 195.2, 172, 215, 195.0, 211.9, 214.85, 215.0, 4.337453914552158, 36.59303160919541, 0.563360713511169], "isController": false}, {"data": ["Adactin Login Page", 20, 0, 0.0, 507.1500000000001, 172, 1123, 452.5, 940.1000000000003, 1114.35, 1123.0, 3.6036036036036037, 19.219805743243242, 0.42581644144144143], "isController": false}]}, function(index, item){
+    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 40, 0, 0.0, 1391.9, 330, 5030, 521.0, 3276.2, 4774.399999999994, 5030.0, 3.056701818737582, 21.04542187261195, 0.37910266697233685], "isController": false}, "titles": ["Label", "#Samples", "FAIL", "Error %", "Average", "Min", "Max", "Median", "90th pct", "95th pct", "99th pct", "Transactions/s", "Received", "Sent"], "items": [{"data": ["Adactin Register Page", 20, 0, 0.0, 830.3499999999999, 330, 2941, 478.0, 2618.9000000000015, 2928.6499999999996, 2941.0, 2.1110407430863414, 17.809844706565336, 0.27418790901414397], "isController": false}, {"data": ["Adactin Login Page", 20, 0, 0.0, 1953.45, 344, 5030, 1469.5, 4712.800000000003, 5020.3, 5030.0, 1.6921905406548778, 9.025291638463491, 0.19995610880785175], "isController": false}]}, function(index, item){
         switch(index){
             // Errors pct
             case 3:

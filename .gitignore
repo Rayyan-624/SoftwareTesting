@@ -6,3 +6,4 @@ playwright/.cache/
 playwright/.auth/
 allure-results/
 allure-report/
+jmeter.log
